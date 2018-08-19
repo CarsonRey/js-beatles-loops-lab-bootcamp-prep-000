@@ -45,13 +45,13 @@ function johnLennonFacts(facts) {
 
 
 function iLoveTheBeatles(n) {
+  var array = [];
   function incrementLoop() {
      n++;
   }
-  var array = [];
   do {
     array.push("I love the Beatles!");
   }
-  while (incrementLoop() && array.length < 8);
+  while (incrementLoop() && array.length < 15);
   return array;
 }
