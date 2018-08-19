@@ -43,7 +43,7 @@ function johnLennonFacts(facts) {
   return otherArray;
 }
 
-n = 15;
+
 function iLoveTheBeatles(n) {
   function incrementLoop() {
      n++;
@@ -52,6 +52,6 @@ function iLoveTheBeatles(n) {
   do {
     array.push("I love the Beatles!");
   }
-  while (incrementLoop() && array.length < 15);
+  while (incrementLoop() && array.length < n);
   return array;
 }
