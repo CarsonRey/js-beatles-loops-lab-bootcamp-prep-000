@@ -25,6 +25,8 @@ function theBeatlesPlay(musicians, instruments) {
 }
   return emptyArray;
 }    
+ // Don't have to put 'return' when push.-ing!
+ 
  
  var facts = [
   "He was the last Beatle to learn to drive",
@@ -42,7 +44,7 @@ function johnLennonFacts(facts) {
   }
   return otherArray;
 }
-
+// Increment required reference to old array, not a number
 
 function iLoveTheBeatles(n) {
   var array = [];
@@ -52,6 +54,8 @@ function iLoveTheBeatles(n) {
   do {
     array.push("I love the Beatles!");
   }
-  while (incrementLoop() && array.length < 16);
+  while (incrementLoop() && array.length < 16)
   return array;
 }
+
+//
