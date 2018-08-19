@@ -17,10 +17,10 @@ function theBeatlesPlay(musicians, instruments) {
   var emptyArray = [];
   for( var i = 0; i < 4; i++){
    if ( i === 0) {
-     return emptyArray.push(`${musicians[0]} plays ${instruments[0]}`)
+      emptyArray.push(`${musicians[0]} plays ${instruments[0]}`)
    }
      
-   else {return emptyArray.push(`${musicians[i]} plays ${instruments[i]}`);
+   else { emptyArray.push(`${musicians[i]} plays ${instruments[i]}`);
    }
 }
   return emptyArray;
