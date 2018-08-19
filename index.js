@@ -37,7 +37,7 @@ function johnLennonFacts(facts) {
   var otherArray = [];
   var i = 0;
   while (i < 5){
-    console.log(otherArray.push(`${facts[i]} + "!!!"`))
+    console.log(otherArray.push(`${facts[i]} !!!`))
     i++;
   }
   return otherArray;
