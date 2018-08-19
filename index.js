@@ -40,6 +40,7 @@ function johnLennonFacts(facts) {
     console.log(otherArray.push(`${facts[i]} + "!!!"`))
     i++;
   }
+  return otherArray;
 }
 
 n = 15;
