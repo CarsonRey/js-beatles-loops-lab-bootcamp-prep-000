@@ -44,9 +44,10 @@ function johnLennonFacts(facts) {
   }
   return otherArray;
 }
+
 // Had to create new array
 // Had to add var i and incorporate i++ increment to execute loop
-//Increment required reference to old array, not a number
+//Increment required reference to old array, not a number (counts to forever otherwise bc == true)
 
 function iLoveTheBeatles(n) {
   var array = [];
@@ -61,4 +62,5 @@ function iLoveTheBeatles(n) {
   return array;
 }
 
+// Had to nest incrementLoop in 'do' so it would execute
 //
