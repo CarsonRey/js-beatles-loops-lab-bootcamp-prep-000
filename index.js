@@ -44,17 +44,19 @@ function johnLennonFacts(facts) {
   }
   return otherArray;
 }
-// Increment required reference to old array, not a number
+// Had to create new array
+// Had to add var i and incorporate i++ increment to execute loop
+//Increment required reference to old array, not a number
 
 function iLoveTheBeatles(n) {
   var array = [];
   function incrementLoop() {
-     n++;
+     n = n + 1;
   }
   do {
     array.push("I love the Beatles!");
   }
-  while (incrementLoop() && array.length < 16)
+  while (incrementLoop() && array.length < 16);
   return array;
 }
 
